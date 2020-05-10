@@ -6,11 +6,11 @@ import flixel.FlxState;
 
 class Player extends FlxSprite
 {
-    //set up enemy variables
-    private var pHealth:Int=300;
-    private var attack:Int=30;
-    private var defend:Int=-30;
-    private var heal:Int=50;
+    //set up Player variables
+     var pHealth:Int=300;
+     var attack:Int=30;
+     var defend:Int=-30;
+     var heal:Int=50;
 
     
   public function new() 
