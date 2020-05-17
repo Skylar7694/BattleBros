@@ -11,12 +11,13 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 using flixel.util.FlxSpriteUtil;
 class PlayersChoice extends Player
 {
-    var combatBackground:FlxSprite;
-    var healthTrack:FlxSprite;
-    var countHealth:FlxText;
-    var text:FlxText;
-    var choice:Array<String> = ["Fight", "Defend", "Heal", "Flee"];
-    //creates the battle sequence
+    
+    // var combatBackground:FlxSprite;
+    // var healthTrack:FlxSprite;
+    // var countHealth:FlxText;
+    // var text:FlxText;
+    // var choice:Array<String> = ["Fight", "Defend", "Heal", "Flee"];
+    // creates the battle sequence
        
   public function new() 
   { 
