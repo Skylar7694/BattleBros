@@ -9,8 +9,6 @@ import flixel.util.FlxColor;
 
 enum BattleState{Start; PlayerTurn; EnemyTurn; Won; Lost;}
 
-    public GameObject player;
-    public GameObject Enemy;
 class BattleSequence extends PlayersChoice{
 
     void Start(){

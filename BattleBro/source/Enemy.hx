@@ -18,7 +18,6 @@ class Enemy extends FlxSprite
     super();
     loadGraphic(AssetPaths.enemy__png);
     this.setPosition(625, 75);
-
   }
 
 }
